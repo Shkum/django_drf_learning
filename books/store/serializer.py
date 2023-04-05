@@ -17,7 +17,6 @@ class BooksSerializer(ModelSerializer):
     #     return UserBookRelation.objects.filter(book=instance, like=True).count()
 
 
-
 class UserBookRelationSerializer(ModelSerializer):
     class Meta:
         model = UserBookRelation
